@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Folio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Nav -->
+    <section>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 lg_menu">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Blogs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul
+            class="navbar-nav w-100 border-1 m-auto mb-2 mb-lg-0 d-flex flex-column align-items-center lg_menu"
+          >
+            <li class="nav-item">
+              <a class="nav-link active py-3" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active pb-3" aria-current="page" href="#"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active py-3" aria-current="page" href="#"
+                >Blogs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active py-3" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Nav -->
+
+    <!-- banner -->
+    <section id="banner ">
+      <div class="container">
+        <div class="row banner_row align-items-center">
+          <div class="col-md-6 content">
+            <h3 class="pb-3">Hello, I'm Arif Rahman</h3>
+            <h1 class="pb-3">UIUX and Graphic Designer</h1>
+            <p class="w-lg-75 pb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+            </p>
+            <div>
+              <button class="btn_1">
+                <span>Lets talk</span>
+                <span><i class="fa-regular fa-paper-plane"></i></span>
+              </button>
+              <button class="btn_2">
+                <span>Download CV</span>
+                <span><i class="fa-solid fa-cloud-arrow-down"></i></span>
+              </button>
+            </div>
+            <div class="pt-4 icon">
+              <p class="follow d-inline-block">Follow me :</p>
+              <span><i class="fa-solid fa-globe"></i></span>
+              <span><i class="fa-brands fa-facebook-f"></i></span>
+              <span><i class="fa-brands fa-twitter"></i></span>
+              <span><i class="fa-brands fa-instagram"></i></span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              class="img-lg-fluid banner_img"
+              src="./images/baner.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="mouse">
+          <span>
+            <i class="fa-solid fa-computer-mouse"></i>
+          </span>
+        </div>
+      </div>
+    </section>
+    <!-- banner -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-6 about_image">
+            <img src="./images/aboou1.png" alt="" />
+          </div>
+          <div class="col-lg-6 about_content mb-4">
+            <h1 class="pb-3">About Me</h1>
+            <p class="w-lg-75 pb-3">
+              With 10 years experience as a professional Web developer, I have
+              acquired the skills and knowledge necessary to make your project a
+              success. I enjoy every step of the design process, from discussion
+              and collaboration.
+            </p>
+            <a href="#" class="mb-4">See More</a>
+          </div>
+        </div>
+        <div class="round">
+          <img src="./images/about2.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+
+    <!-- Quality -->
+    <section id="Quality">
+      <div class="container">
+        <div class="row gap-5">
+          <div class="col-lg-4 shadow-lg rounded-4 quality_content">
+            <img src="./images/quality1.png" alt="" />
+            <h1>Pixel Perfect</h1>
+            <p>
+              Most common methods for designing websites that work well on
+              desktop is responsive and adaptive design.
+            </p>
+          </div>
+          <div class="col-lg-4 shadow-lg rounded-4 quality_content">
+            <img src="./images/quality2.png" alt="" />
+            <h1>High Quality</h1>
+            <p>
+              Most common methods for designing websites that work well on
+              desktop is responsive and adaptive design.
+            </p>
+          </div>
+          <div class="col-lg-4 shadow-lg rounded-4 quality_content">
+            <img src="./images/quality3.png" alt="" />
+            <h1>Awesome Idea</h1>
+            <p>
+              Most common methods for designing websites that work well on
+              desktop is responsive and adaptive design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Quality -->
+
+    <!-- Branding -->
+    <section id="branding">
+      <div class="container">
+        <div
+          class="row branding_row align-items-center justify-content-between"
+        >
+          <div class="col-lg-6 branding_image">
+            <img src="./images/branding2.png" alt="" />
+          </div>
+          <div class="col-lg-6 branding_content mb-4">
+            <h1 class="pb-3 pt-4">Branding</h1>
+            <p class="w-lg-75 pb-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+              ornare id faucibus nunc fusce tellus scelerisque adipiscing lorem.
+              Mollis tortor, mattis urna imperdiet.
+            </p>
+            <a href="#" class="mb-4">See Project</a>
+          </div>
+        </div>
+        <div class="triangle">
+          <img src="./images/Branding.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Branding -->
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="skillName w-lg-50 col-lg-6">
+            <div class="shadow mb-5">
+              <span class="logo">
+                <i class="fa-solid fa-laptop-code"></i>
+              </span>
+              <span class="skill-content">
+                <h3>Website Design</h3>
+                <p>712 project</p>
+              </span>
+            </div>
+            <div class="shadow mb-5">
+              <span class="logo yellow">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </span>
+              <span class="skill-content">
+                <h3>Mobile App Design</h3>
+                <p>702 project</p>
+              </span>
+            </div>
+            <div class="shadow">
+              <span class="logo orange">
+                <i class="fa-regular fa-copyright"></i>
+              </span>
+              <span class="skill-content">
+                <h3>Brand Identity</h3>
+                <p>612 project</p>
+              </span>
+            </div>
+          </div>
+          <div class="aboutSkill w-lg-50 col-lg-6">
+            <h1>What Do I Help?</h1>
+            <p class="skillName_content">
+              I will help you with finding a solution and solve your <br />
+              problems. We use process design to create digital <br />
+              products. Beside that also help their business.
+            </p>
+            <div class="project">
+              <span class="projectC">
+                <h3>250+</h3>
+                <p>Project Completed</p>
+              </span>
+              <span class="client">
+                <h3>150+</h3>
+                <p>Happy Clients</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+
+    <!-- Experience -->
+     <section id="experiece">
+      <div class="container">
+        <div class="experience_row row  justify-content-between">
+          <div class="col-lg-4 experience_tab">
+            <h4>Self Employ, India</h4>
+            <span>Sep 2019 - Aug 2020</span>
+          </div>
+          <div class="col-lg-6">
+            <h4>Visual Designer</h4>
+            <span>A Visual design design for a variate of platforms which may includes internat and internet sites, games, movies and workable. In short, they create the concept. </span>
+          </div>
+        </div>
+        <div class="experience_row  row justify-content-between">
+          <div class="col-lg-4 experience_tab">
+            <h4>Self Employ, India</h4>
+            <span>Sep 2019 - Aug 2020</span>
+          </div>
+          <div class="col-lg-6">
+            <h4>Visual Designer</h4>
+            <span>A Visual design design for a variate of platforms which may includes internat and internet sites, games, movies and workable. In short, they create the concept. </span>
+          </div>
+        </div>
+        <div class="experience_row row justify-content-between">
+          <div class="col-lg-4 experience_tab">
+            <h4>Self Employ, India</h4>
+            <span>Sep 2019 - Aug 2020</span>
+          </div>
+          <div class="col-lg-6">
+            <h4>Visual Designer</h4>
+            <span>A Visual design design for a variate of platforms which may includes internat and internet sites, games, movies and workable. In short, they create the concept. </span>
+          </div>
+        </div>
+        
+      </div>
+     </section>
+    <!-- Experiance -->
+
+    <!-- Expert -->
+    <section id="expert">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6 expert_content">
+            <h1>My Expert Areas</h1>
+            <p class="mt-4 expert_para_1 mb-2 w-75">You can express yourself however you want and whenever you want, for free. You can customize a template or make your own from scratch, with an immersive library at your disposal. You can express yourself however you want and whenever you free.</p>
+            <p class="mb-4 expert_para_1 w-75">You can customize a template or make your own from scratch, with an immersive library at your disposal.</p>
+            <button class="btn_1">
+              <span>Download CV</span>
+              <span><i class="fa-solid fa-cloud-arrow-down"></i></i></span>
+            </button>
+          </div>
+          <div class="col-lg-6 expert_range">
+            <div class="">
+              <button class="btn_2">
+                <span>Skills</span>              
+              </button>
+              <button class="btn_2">
+                <span>Education</span>              
+              </button>
+            </div>
+            <div class="range w-75">
+              <div class="range_content mt-4 ">
+                <div class=" d-flex justify-content-between pe-5 mb-2">
+                  <span class="name">Figma</span><span class="percentage">85%</span>
+                </div>
+
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progess-1" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="range_content mt-4 ">
+                <div class=" d-flex justify-content-between pe-5 mb-2">
+                  <span class="name">PhotoShop</span><span class="percentage-1">75%</span>
+                </div>
+
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progess-2" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="range_content mt-4 ">
+                <div class=" d-flex justify-content-between pe-5 mb-2">
+                  <span class="name">XD</span><span class="percentage-2">80%</span>
+                </div>
+
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progess-3" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="range_content mt-4 ">
+                <div class=" d-flex justify-content-between pe-5 mb-2">
+                  <span class="name">Illustrator</span><span class="percentage-3">70%</span>
+                </div>
+
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progess-4" style="width: 70%"></div>
+                </div>
+              </div>
+              
+            
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Expert -->
+
+    <!-- Service -->
+    <section id="service">
+      <div class="container">
+        <div class="service_header">
+          <h1>My Sevices</h1>
+          <p>
+            Most common methods for designing websites that work well on <br />
+            desktop is responsive and adaptive design
+          </p>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-lg-4 service_content">
+            <div class="service_img">
+              <img class="service_img_1" src="./images/service-1.png" alt="" />
+            </div>
+            <h2>Creative Design</h2>
+            <p>
+              Web design refers to the design of websites that are displayed on
+              the internet. It usually refers to the user experience aspects of
+              website development
+            </p>
+          </div>
+          <div class="col-lg-4 service_content">
+            <div class="service_img">
+              <img class="service_img_2" src="./images/service-2.png" alt="" />
+            </div>
+            <h2>UI/UX Design</h2>
+            <p>
+              Web design refers to the design of websites that are displayed on
+              the internet. It usually refers to the user experience aspects of
+              website development
+            </p>
+          </div>
+          <div class="col-lg-4 service_content">
+            <div class="service_img">
+              <img class="service_img_3" src="./images/service-3.png" alt="" />
+            </div>
+            <h2>Web Design</h2>
+            <p>
+              Web design refers to the design of websites that are displayed on
+              the internet. It usually refers to the user experience aspects of
+              website development
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service -->
+
+    <!-- Feedback -->
+    <section id="feedback">
+      <div class="container">
+        <h1 class="feedback_heading">Valuable feedback from my client</h1>
+        <p class="feedback_para">
+          Most common methods for designing websites that work well on desktop
+          is <br />
+          responsive and adaptive design
+        </p>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <img class="feedback_img" src="./images/feedback.png" alt="" />
+          </div>
+          <div class="col-lg-6 feedback_Content">
+            <p class="w-75">
+              “Awesome website! Easy to use and edit, it has a lot of options to
+              design whatever you need, it is professional and fun. I was very
+              successful creating my profile using designer which gave me
+              unbelievable reach & <br />
+              appreciation.”
+            </p>
+            <div>
+              <h3>Albert Walkers</h3>
+              <span>Vivaco Group</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Feedback -->
+
+    <!-- Blog -->
+    <section id="blog">
+      <div class="container">
+        <h1 class="blog-header">From My Blog Post</h1>
+        <div class="row">
+          <div class="col-lg-6 blog_row d-flex mb-5 align-items-center">
+            <div>
+              <img src="./images/blog-1.png" alt="" />
+            </div>
+            <div class="blog_content">
+              <div
+                class="date_content d-flex align-items-center justify-content-between"
+              >
+                <span class="d-flex">
+                  <i class="fa-regular pe-2 pt-1 fa-calendar-days"></i>
+                  <p class="para">02 June, 2022</p>
+                </span>
+                <span class="jhon pb-3">John Smith</span>
+              </div>
+              <h5 class="pb-5">
+                Diversification of digital <br />
+                marketing stategies
+              </h5>
+              <div class="button">
+                <span>Read More</span><img src="./images/up-arrow.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 blog_row d-flex mb-5 align-items-center">
+            <div>
+              <img src="./images/blog-2.png" alt="" />
+            </div>
+            <div class="blog_content">
+              <div
+                class="date_content d-flex align-items-center justify-content-between"
+              >
+                <span class="d-flex">
+                  <i class="fa-regular pe-2 pt-1 fa-calendar-days"></i>
+                  <p>02 June, 2022</p>
+                </span>
+                <span class="jhon pb-3">John Smith</span>
+              </div>
+              <h5 class="pb-5">
+                Diversification of digital <br />
+                marketing stategies
+              </h5>
+              <div class="button">
+                <span>Read More</span><img src="./images/up-arrow.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 blog_row mb-5 d-flex align-items-center">
+            <div>
+              <img src="./images/blog-3.png" alt="" />
+            </div>
+            <div class="blog_content">
+              <div
+                class="date_content d-flex align-items-center justify-content-between"
+              >
+                <span class="d-flex">
+                  <i class="fa-regular pe-2 pt-1 fa-calendar-days"></i>
+                  <p>02 June, 2022</p>
+                </span>
+                <span class="jhon pb-3">John Smith</span>
+              </div>
+              <h5 class="pb-5">
+                Diversification of digital <br />
+                marketing stategies
+              </h5>
+              <div class="button">
+                <span>Read More</span><img src="./images/up-arrow.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 blog_row mb-5 d-flex align-items-center">
+            <div>
+              <img src="./images/blog-4.png" alt="" />
+            </div>
+            <div class="blog_content">
+              <div
+                class="date_content d-flex align-items-center justify-content-between"
+              >
+                <span class="d-flex">
+                  <i class="fa-regular pe-2 pt-1 fa-calendar-days"></i>
+                  <p>02 June, 2022</p>
+                </span>
+                <span class="jhon pb-3">John Smith</span>
+              </div>
+              <h5 class="pb-5">
+                Diversification of digital <br />
+                marketing stategies
+              </h5>
+              <div class="button">
+                <span>Read More</span><img src="./images/up-arrow.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog -->
+
+    <!-- Newsletter -->
+    <section id="newsletter">
+      <div class="container news">
+        <div class="row align-items-center">
+          <div class="news_content col-lg-6">
+            <h6>Subscribe Now</h6>
+            <h1>Get My Newsletter</h1>
+            <p>Get latest news, updates, tips and trics in your inbox</p>
+          </div>
+          <div class="newsField group col-lg-6">
+            <input placeholder="Your email here" type="text" name="" id="" />
+            <button>Send Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Newsletter -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 d-flex flex-column justify-content-between">
+            <a class="navbar-brand" href="#"
+              ><img src="./images/footer.png" alt=""
+            /></a>
+            <div class="">
+              <span class="call">Call:</span><br />
+              <span class="number">+9984748473833</span>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-between">
+            <h1 class="let">Let's work together</h1>
+            <p class="para w-75">
+              You can express yourself however you want and whenever you want,
+              for free. You can customize a template or make your own.
+            </p>
+            <div>
+              <span class="call">Email:</span><br />
+              <span class="number">dfsush@gmail.com</span>
+            </div>
+          </div>
+          <div class="col-lg-3 d-flex flex-column justify-content-between">
+            <button class="btn_1">
+              <span>Lets talk</span>
+              <span><i class="fa-regular fa-paper-plane"></i></span>
+            </button>
+            <div class="pt-4 icon">
+              <p class="follow d-inline-block call">Follow me :</p>
+              <span><i class="fa-solid fa-globe"></i></span>
+              <span><i class="fa-brands fa-facebook-f"></i></span>
+              <span><i class="fa-brands fa-twitter"></i></span>
+              <span><i class="fa-brands fa-instagram"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <script src="./bootstrap.bundle.min.js"></script>
+  </body>
+</html>
